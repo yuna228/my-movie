@@ -360,7 +360,6 @@ st.dataframe(
 st.caption(
     "데이터 출처: 영화관입장권통합전산망(KOBIS) 일일 박스오피스 API"
 )
-```python
 import streamlit as st
 import requests
 from datetime import datetime, timedelta
@@ -897,7 +896,6 @@ st.caption(
     "💡 같은 날짜를 다시 조회하면 약 1시간 동안 "
     "저장된 API 결과를 사용합니다."
 )
-
 st.caption(
     "※ 같은 날짜의 API 결과는 약 1시간 동안 캐시되어 재사용됩니다."
 )
